@@ -1,0 +1,337 @@
+/* reseat */
+body{
+    margin:0px;}
+html, body {
+    overflow-x: hidden;}
+a{
+    text-decoration: none;}
+/* banner */
+.banner{
+    background-image: url(images/Banner.png);
+    background-position:center;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+    display: grid;
+    align-content: center;}
+.content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns:1fr 1fr;}
+#bannerVideo {
+    height: 400px;
+    margin-left: 0px;}
+.text-content {
+    padding: 0 20px;
+    text-align: center;}
+.banner h1{
+    font-size: 64px;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 10;
+    line-height: 1;
+    margin-top: -22px;
+    text-align: center;}
+.banner p{
+    font-size: 28px;
+    margin-bottom: 50px;}
+.btn-n-gros{
+    text-decoration: none;
+    background-color: black;
+    padding : 10px 25px;
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);}
+.btn-n-gros:hover{
+    background-color: #92B6B1;
+    color:white;}
+.btn-down-container {
+        display: flex;
+        justify-content: center;}
+.btn-down{
+    font-size: 45px;
+    position: fixed;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50% ;}
+.btn-down:hover{
+    transform: scale(1.1);}
+.contain-offre {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;}  
+.contenus {
+    display: flex;
+    justify-content: space-between;}
+.contenu {
+    flex: 0 0 calc(30% - 20px);
+    margin: 0 10px;
+    text-align: center;
+    width: 340px;}
+.contenu h2, .container-icones h2 {    
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 0.5rem;
+    font-size: 2.25rem;
+    font-family: "Libre Baskerville", cursive;
+    font-weight: 400;}   
+.contenu img {
+    width: 6.75rem;
+    height: 6.75rem;
+    line-height: 6.75rem;
+    margin: 20px 20px 0px 20px;}
+
+/* cartes */
+.ctn-carte{
+    margin: 40px auto;
+    width: 900;}
+.ctn-carte H2{ 
+    font-size: 40px;
+    font-family: 'Libre Baskerville';
+    margin-bottom: 0px;}
+.text-ctn{
+    font-size: 24px;
+    font-family: 'Libre Baskerville';
+    margin: 10px 0px;}
+.text-carte{
+    font-size: 15px;
+    font-family: 'Libre Baskerville';
+    margin: 0px 0px;}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 230px 0px 230px;}
+.card-carte{
+    margin: 10px 10px}
+.img-photo, .img-carte {
+    object-fit:cover;}
+.img-carte{
+    height: 120px;}
+.img-photo{
+    height: 140px;
+    margin-bottom: 5px;}
+.ctn-carte{
+    text-align:center;}
+
+/*parallax*/
+.parallax {
+    background-image:url("images/bateau.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+    
+/* Carrousel */
+.carrousel {
+    position: relative;
+    background-color: white;}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;}
+.slide {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    flex: 0 0 calc(50% / 3);
+    text-align: center;
+    margin: 0px 10px;
+    background-color:#D7E2E6;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;}
+.slide:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: lightgray;}
+.slide img {
+    width: auto;
+    height: 236px;
+    margin: 0px;}
+.slide h2{
+    margin:10px;}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(+125%);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;}
+.prev {
+    left: 0;}
+.next {
+    right: 0;} 
+
+/* Data*/
+.container-4columns, .container-6columns{
+    width: 900;
+    display:grid;}    
+.container-4columns{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 230px;
+    gap: 10px;}
+.container-6columns{
+    margin: 20px 150px;}
+.data.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin:30px 10px;
+    text-align: center;}
+.ctn-4cln { 
+    background: #D7E2E6;
+    text-align: center;
+    padding: 20px 0px 20px 0px;}       
+.numbers{
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0px;
+    font-family: "Libre Baskerville", cursive;}  
+.infos {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Libre Baskerville", cursive;
+    font-weight: 500;}     
+
+/*Card processus*/
+.container-icones{
+    background-color: #D7E2E6;
+    justify-content: center;
+    display: flex ;}
+.icone img{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 20px;
+    background-color: #111111;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);}
+.flèche-monte img{
+    width: 75px;
+    height: 30px;
+    margin-top: 45px}
+.flèche-descend img{
+    width: 75px;
+    height: 30px;
+    margin-top: 85px}
+.icone {
+    display: flex;
+    padding: 30px 0px 0px 0px;
+    flex-direction:column;
+    align-items: center;
+    width: 110px;
+    height: 300px;}
+.flèche {
+    display: flex;
+    padding: 30px 0px 0px 0px;}   
+.card-icone {
+    display: flex;
+    flex-direction:column;
+    padding: 0px 24px 24px 24px;
+    margin-bottom: 1.5rem;
+    position: relative;
+    width: 130px;
+    text-align: center; }
+
+/* Type de Moods */
+.ctn-6cln { 
+    background: white;
+    padding: 30px 20px 0px 20px;}
+.container-6columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    text-align: center;}
+.petite-img-carrée{
+    height: 90px;
+    width: 165px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3)}
+.btn-n-petit {
+    text-decoration: none;
+    /* border-radius: px; */
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px 0px 0px 0px;}
+.btn-n-petit:hover{
+        background-color: #92B6B1;
+        color:white;}
+
+/* carrousel final */
+.custom-slider { 
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.slide-container {
+  position: relative;
+  margin: auto;}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;        
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0,0,0,0);
+  transition: background-color 0.6s ease;}
+.prev{ 
+    left: 15px; }
+.next { 
+    right: 15px; }
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);}
+.slide-index {
+  color: #ffffff;
+  font-size: 13px;
+  padding: 15px;
+  position: absolute;
+  top: 0;}
+.slide-img{ 
+  width: 100%; 
+  height: 600px;
+  object-fit: cover;
+  object-position: center;}
+.slide-dot{ 
+    text-align: center;
+    background-color: rgba(0 0 0 0.5);}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #999999;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;}
+.active, .dot:hover { 
+    background-color: #111111; }
+.slide p, .contenu p, .card-icone p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 20px;}
+
+html {
+    scroll-behavior: smooth;}

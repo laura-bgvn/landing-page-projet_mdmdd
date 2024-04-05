@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> KEDGE - Web Development Sprint </title>
+
+    <!-- Set any Google fonts of your choice -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Montserrat+Subrayada:wght@400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c68c65bcfd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="lightslider.css">
+    <link type="text/javascript" src="lightslider.js"></script>
+    <link type="text/javascript" src="Jquery.js"></script>
+
+  </head>
+  <body>
+
+ <!-- banner -->   
+<div class="banner">
+  <div class="content">
+    <video autoplay muted loop id="bannerVideo">
+      <source src="images/videobannière3.mp4" type="video/mp4">
+    </video>
+    <div class="text-content">
+      <h1>Voyager n'a jamais été aussi simple</h1>
+      <p>Offres de voyage tout compris, choisis avec soin.</p>
+      <a href="" class="btn-noir btn-n-gros">En découvrir plus sur VTC</a>
+    </div>
+  </div>
+ <!-- A ne plus utiliser mais se servir du code pour faire un lien vers les photos du bas  -->
+  <div class="btn-down-container">  
+    <div class="btn-down">
+      <a href="#" id="btn-down"><i class="fa-solid fa-circle-chevron-down" style="color: white;" alt="arrow down"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Container photo et carte -->
+<div>
+  <div class="container ctn-carte">
+    <H2>DESTINATIONS</H2>
+    <p class="text-ctn">Vivez Vos Rêves, Partez Sereins.</p>
+    <div class="grid-container">
+      <div class="card card-carte">
+        <img src="images/espagne-img-carré.jpg" class="img-photo" alt="Photo Espagne">
+        <img src="images/espagne-lieux.png" class="img-carte" alt="Carte Espagne">
+        <P class="text-carte">Espagne</P>
+      </div>  
+      <div class="card card-carte">
+        <img src="images/Monténégro-img-carré.jpg" class="img-photo" alt="Photo Monténégro">
+        <img src="images/monténégro-lieux.png" class="img-carte" alt="Carte Monténégro">
+        <P class="text-carte">Monténégro</P>
+      </div>
+      <div class="card card-carte">
+        <img src="images/pologne-img-carre.jpg" class="img-photo" alt="Photo Pologne">
+        <img src="images/Pologne-lieux.png" class="img-carte" alt="Carte Pologne">
+        <P class="text-carte">Pologne</P>
+      </div>
+      <div class="card card-carte">
+        <img src="images/irlande-img-carré.jpg" class="img-photo" alt="Photo Irlande">
+        <img src="images/irlande-lieux.png" class="img-carte" alt="Carte Irlande">
+        <P class="text-carte">Irlande</P>
+      </div>
+    </div>  
+  </div> 
+</div>
+
+<!-- datas -->
+<div>
+  <div class="container ctn-4cln">
+    <div class="container-4columns">
+      <div class="data.details">
+        <p class="numbers">30</p>
+        <p class="infos">Itinéraires</p>
+      </div>
+      <div class="data.details">
+        <p class="numbers">15</p>
+        <p class="infos">Pays proposés</p>
+      </div>
+      <div class="data.details">
+        <p class="numbers">2</p>
+        <p class="infos">Continents</p>
+      </div>
+      <div class="data.details">
+        <p class="numbers">50</p>
+        <p class="infos">Incontournables</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Carrousel -->
+<div class="carrousel">
+  <div class="slides">
+    <div class="slide">
+      <img src="images/Cracovie.jpg" alt="Image 1">
+      <h2>CRACOVIE</h2>
+    </div>
+    <div class="slide">
+      <img src="images/Prague.jpg" alt="Image 2">
+      <h2>PRAGUE</h2>
+    </div>
+    <div class="slide">
+      <img src="images/Londres.jpg" alt="Image 3">
+      <h2>LONDRES</h2>
+    </div>
+    <div class="slide">
+      <img src="images/barcelone.jpg" alt="Image 4">
+      <h2>BARCELONE</h2>
+    </div>
+    <div class="slide">
+      <img src="images/venise.jpg" alt="Image 5">
+      <h2>VENISE</h2>
+    </div>
+    <div class="slide">
+      <img src="images/bruxelles.jpg" alt="Image 6">
+      <h2>BRUXELLES</h2>
+    </div>
+    <div class="slide">
+      <img src="images/bruxelles.jpg" alt="Image 7">
+      <h2>BRUXELLES</h2>
+    </div>
+    <div class="slide">
+      <img src="images/bruxelles.jpg" alt="Image 8">
+      <h2>BRUXELLES</h2>
+    </div>
+    <div class="slide">
+      <img src="images/bruxelles.jpg" alt="Image 9">
+      <h2>BRUXELLES</h2>
+    </div>
+    <div class="slide">
+      <img src="images/bruxelles.jpg" alt="Image 10">
+      <h2>BRUXELLES</h2>
+    </div>
+  </div>
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</div>
+
+<!-- Contain offre -->
+<div class="contain-offre">
+  <div class="contenus">
+    <div class="contenu">
+      <img src="images/icone-carrée-hotel.png" alt="hotels inclus">
+      <h2>Hotel Booking</h2>
+      <p>Chaque itinéraire comprend des hôtels sélectionnés avec amour, intégrés dans le prix, pour vous offrir une expérience de voyage sans souci et confortable.</p>
+    </div>
+    <div class="contenu">
+      <img src="images/icone-carrée-ticket.png" alt="activités inclues">
+      <h2>Tickets Booking</h2>
+      <p>
+        Chaque itinéraire est pensé pour offrir une multitude d'activités soigneusement intégrées dans le prix, pour une expérience de voyage véritablement inoubliable.</p>
+    </div>
+    <div class="contenu">
+      <img src="images/icone-carrée-avion.png" alt="vols inclus">
+      <h2>Flight Booking</h2>
+      <p>
+        Chaque itinéraire propose des vols inclus à des tarifs avantageux, offrant ainsi une solution de voyage complète et pratique pour les voyageurs.</p>
+    </div>
+  </div>
+</div>  
+
+<!-- parallax -->
+<div class="parallax">
+</div>
+  
+<!-- card-processus -->
+<div class="container-icones">
+    <h2>Process d'un itinéraire personnalisé</h2>
+</div>
+<div class="container-icones">
+  <div class="icone">
+    <div data-tf-live="01HTQYY758SXB8G2N6HSSR7ZDJ"></div><script src="//embed.typeform.com/next/embed.js"></script>
+    <div class="card card-icone">
+      <p>Prenez le temps de répondre au questionnaire afin que nous puissions cibler votre besoin.</p>
+    </div>
+  </div>
+  <div class="flèche-monte">
+    <img src="images/flèche-droite-blanche.png" alt="fleche-direction">
+  </div>
+  <div class="icone">
+    <img src="images/icone-ronde-download.png" alt="télécharger-proposition">
+    <div class="card card-icone">
+      <p>Télécharger notre proposition de séjour comprenant le devis.</p>
+    </div>
+  </div>
+  <div class="flèche-descend">
+    <img src="images/flèche-envers-blanche.png" alt="fleche-direction">
+  </div>
+  <div class="icone">
+    <img src="images/icone-ronde-hésite.png" alt="accepter-refuser">
+    <div class="card card-icone">
+      <p>Validez ou demandez une requête de modification.</p>
+    </div>
+  </div>
+  <div class="flèche-monte">
+      <img src="images/flèche-droite-blanche.png" alt="fleche-direction">
+  </div>
+  <div class="icone">
+    <img src="images/icone-ronde-modif.png" alt="dernière-modif">
+    <div class="card card-icone">
+      <p>Création du voyage pour refléter vos besoins et attentes.</p>
+    </div>
+  </div>
+  <div class="flèche-descend">
+    <img src="images/flèche-envers-blanche.png" alt="fleche-direction">
+  </div>
+  <div class="icone">
+    <img src="images/icone-ronde-email.png" alt="infos-email">
+    <div class="card card-icone">
+      <p>Recevez toutes les informations relatives à votre voyage pour anticiper au plus tôt.</p>
+    </div>
+  </div>
+  <div class="flèche-monte">
+      <img src="images/flèche-droite-blanche.png" alt="fleche-direction">
+  </div>
+  <div class="icone">
+      <img src="images/icone-ronde-go.png" alt="depart"> 
+      <div class="card card-icone">
+        <p>Recevez toutes les informations relatives à votre voyage pour anticiper au plus tôt.</p>
+      </div> 
+  </div>
+</div>
+
+<!-- Types offres -->
+<div>
+  <div class="container ctn-6cln">
+    <div class="container-6columns">
+      <div class="data.details ">
+        <img src="images/type-rando.jpg" class="petite-img-carrée"  alt="Mood Randos">
+        <p class="btn-noir btn-n-petit">Randonnée</p>
+      </div>
+      <div class="data.details">
+        <img src="images/type-bienêtre.jpg" class="petite-img-carrée"  alt="Mood Bien-être">
+        <p class="btn-noir btn-n-petit">Bien-Être</p>
+      </div>
+      <div class="data.details">
+        <img src="images/type-famille.jpg" class="petite-img-carrée"  alt="Mood Famille">
+        <p class="btn-noir btn-n-petit">Famille</p>
+      </div>
+      <div class="data.details">
+        <img src="images/type-films.jpg" class="petite-img-carrée"  alt="Mood Film">
+        <p class="btn-noir btn-n-petit">Film</p>
+      </div>
+      <div class="data.details">
+        <img src="images/type-luxe.jpg" class="petite-img-carrée"  alt="Mood Luxe">
+        <p class="btn-noir btn-n-petit">Luxe</p>
+      </div>
+      <div class="data.details">
+        <img src="images/type-ville.jpg" class="petite-img-carrée"  alt="Mood Ville">
+        <p class="btn-noir btn-n-petit">Ville</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- carrousel final -->
+<div class="slide-container">
+  <div class="custom-slider fade">
+    <div class="slide-index">1 / 3</div>
+    <img class="slide-img" src="images/albanie.jpg">
+  </div>
+  <div class="custom-slider fade">
+    <div class="slide-index">2 / 3</div>
+    <img class="slide-img" src="images/irlande.jpg">
+  </div>
+  <div class="custom-slider fade">
+    <div class="slide-index">3 / 3</div>
+    <img class="slide-img" src="https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide3.jpg">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <br>
+  <div class="slide-dot">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>  
+</div>
+
+  
+
+<script src="index.js" type="text/javascript"></script>
+</body>
